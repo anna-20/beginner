@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(void)
 {
 	int t,n,m,i,j,k,rs=5,r,min=0;
@@ -7,8 +7,8 @@ int main(void)
 	{
 		for (k = 0; k <t; ++k)
 		{
-			
-		
+
+
 		scanf("%d%d",&n,&m);
 		if(n>=1&&m>=1&&n<=100&&m<=100)
 		{
@@ -30,7 +30,7 @@ int main(void)
 			}
 		}
 		if (rs==0)
-	
+
 		printf("-1\n");
 	else
 	printf("%d\n", r);
@@ -38,6 +38,6 @@ int main(void)
      min=0;
  }
 	}
-	
+
 return 0;
 }
